@@ -8,23 +8,17 @@ Neural_Style_Transfrom
 随着照相技术的发展，照片变的越来越清晰，但是这些照片的风格却是大同小异的。如果图像经过处理后得到一种完全不同的风格，那照相这件事就会变成一件有意思的事情。
 
 
-比如：这一幅画是著名的画家梵高的《星月夜》：
-
-![](md_images/style_denoised_starry.jpg)
-
-
-我们有一张时光塔图片：
-
-<img src=md_images/timetower.jpg width=400 height=300>
-
-
-经过Neural_Style_Transfrom的转换，一件有意思的事情发生了：
-
-<img src=md_images/timetower_gen.jpg width=400 height=300>
-
-|  | 风格图片 |内容图片|  结果   |
+|  | 《星月夜》 |时光塔|  《星月夜》版时光塔   |
 |:---:|:-----:|:-----:|:--------:|
 | 展示  | <img src=md_images/style_denoised_starry.jpg>| <img src=md_images/timetower.jpg width=400 height=256>  |<img src=md_images/timetower_gen.jpg width=400 height=256> |
+
+|  | 《wave》 |时光塔|  《wave》版时光塔   |
+|:---:|:-----:|:-----:|:--------:|
+| 展示  | <img src=md_images/wave.jpg width=256 height=256>| <img src=md_images/timetower.jpg width=400 height=256>  |<img src=md_images/wave_time.jpg width=400 height=256> |
+
+|  | 《cubist》 |时光塔|  《cubist》版时光塔   |
+|:---:|:-----:|:-----:|:--------:|
+| 展示  | <img src=md_images/cubist.jpg width=256 height=256>| <img src=md_images/timetower.jpg width=400 height=256>  |<img src=md_images/cubist_time.jpg width=400 height=256> |
 
 项目主题
 --------------------------------
