@@ -1,0 +1,72 @@
+.body{
+            width: 1300px;
+            height: 650px;
+            border: 0px soild #CCCCCC;
+            padding: 0px 0px 0px 0px;
+            margin: 0px 0px 0px 0px;
+            background-color: #ffffff
+}
+.page-left{
+    width: 360px;
+    height: 560px;
+    border: 0px solid #CCCCCC;
+    margin: 0px 50px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    /* display: inline-block; */
+    float: left;
+}
+.page-right{
+    width: 720px;
+    height: 560px;
+    border: 0px solid #CCCCCC;
+    margin: 0px 0px 0px 15px;
+    padding: 0px 0px 0px 0px;
+    /* display: inline-block; */
+    float: left;
+}
+/* .page-high{
+    width: 700px;
+    height: 260px;
+    border: 1px soild #CCCCCC;
+    margin: 5px 5px 5px 5px;
+    display: inline-block;
+} */
+/* .page-under{
+    width: 700px;
+    height: 260px;
+    border: 1px soild #CCCCCC;
+    margin: 5px 5px 5px 5px;
+    display: inline-block;
+} */
+.page-botten{
+    width: 1200px;
+    height: 150px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    border: 1px soild #CCCCCC;
+    background-color: #ffffff
+}
+.page-img{
+    width: 220px;
+    height: 270px;
+    margin: 5px 5px 5px 5px;
+    padding:0px;
+    display: inline-block;
+    border: 0px soild rgb(40, 106, 133);
+}
+.page-left img{
+    width: 360px;
+    height: 560px;
+    padding: 0px 0px 0px 0px;
+    margin: 5px;
+}
+.page-img img{
+    width: 220px;
+    height: 270px;
+    padding: 0px 0px 0px 0px;
+    margin: 5px;
+}
+.page-h2{
+    display: inline;
+    margin: 0px 1050px 0px 0px;
+}
