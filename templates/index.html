@@ -1,0 +1,35 @@
+{# templates/index.html #}
+
+{% extends "base.html" %}
+{% block page_content %}
+    <div class = "page-header">
+        <h1 class = "text-center" >Art Styles For Photo</h1>
+    </div>
+    <div class = "body"> 
+        <div class = "page-left">
+            <img src="{{ url_for('static',filename='img/index/timetower.jpg')}}" alt="图片">
+        </div>
+        <div class = "page-right">
+            <!-- <div class= "page-high"> -->
+                <div class="page-img"><img src="{{ url_for('static',filename='img/index/style_cubist.jpg')}}"></div>
+                <div class="page-img"><img src="{{ url_for('static',filename='img/index/style_feathers.jpg')}}"></div>
+                <div class="page-img"><img src="{{ url_for('static',filename='img/index/style_scream.jpg')}}"></div>
+            <!-- </div> -->
+            <!-- <div class = "page-under"> -->
+                <div class="page-img"><img src="{{ url_for('static',filename='img/index/cubist.jpg')}}"></div>
+                <div class="page-img"><img src="{{ url_for('static',filename='img/index/features.jpg')}}"></div>
+                <div class="page-img"><img src="{{ url_for('static',filename='img/index/scream.jpg')}}"></div>
+            <!-- </div> -->
+        </div>
+    </div>
+    <div class = "page-botten">
+        <h2 class="page-h2"></h2>
+        <a href="{{url_for('content')}}" class="btn btn-primary btn-lg active" role="button">Try it!</a>
+    </div>
+{% endblock %}
+
+{% block styles %}
+    {{super()}}
+    <link rel="stylesheet"
+          href="{{ url_for('static',filename='css/T_style.css') }}">
+{% endblock %}
