@@ -1,0 +1,42 @@
+{# templates/index.html #}
+
+{% extends "base.html" %}
+{% block page_content %}
+    <div class = "page-header">
+        <h1 class = "text-center" >图像风格转换</h1>
+    </div> 
+    <div align="center" class="body">
+        <form action="/transform" method="post" enctype="multipart/form-data">
+            选择图片风格:
+            <select name="style" id="style" onchange="changeImage()">   
+                <option>denoised_starry</option>
+                <option>scream</option>
+                <option>cubist</option>
+                <option>wave</option>
+                <option>feathers</option>
+                <option>mosaic</option>
+                <option>udnie</option>
+            </select><br><br>
+            <div align="center">
+                <img id='imageShow' src="{{ url_for('static', filename='img/style/denoised_starry.jpg') }}" width="30%"
+                     height="30%">
+            </div>
+            <br>
+            <h3>上传图片:</h3>
+            <div align="center">
+                <input type="file" name="pic">
+                <input type="submit" value="转换图像风格" onclick="showStatus()" class="btn btn-primary" id="submit-form">
+            </div>
+        </form>
+    
+    </div>
+    <div id='status' align="center">
+    </div>
+{% endblock %}
+
+{% block styles %}
+    {{super()}}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" media="screen" type="text/css">
+    <script src="../static/js/jquery.min.js"></script>
+    <script src="../static/js/maple.js"></script>
+{% endblock %}

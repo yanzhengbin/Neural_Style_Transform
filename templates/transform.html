@@ -1,0 +1,28 @@
+{# templates/index.html #}
+
+{% extends "base.html" %}
+{% block page_content %}
+    <div class = "page-header">
+        <h1 class = "text-center" >Transforming show</h1>
+    </div>
+    <div align="center" >
+        <div class="te-left">
+            <img src="{{ url_for('static', filename=style) }}">
+        </div>
+        <div class="te-tight">
+            <img src="{{ url_for('static', filename=upload) }}" >
+            <br><br>
+            <img src="{{ url_for('static', filename=transform) }}" >
+        </div>
+    </div>
+    <div align="center" class="return">
+        <a class="btn btn-primary" href="/index" style="font-size: 20px;text-decoration-line: none" >返回</a>
+    </div>
+{% endblock %}
+
+{% block styles %}
+    {{super()}}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}" media="screen" type="text/css">
+    <script src="../static/js/jquery.min.js"></script>
+    <script src="../static/js/maple.js"></script>
+{% endblock %}
