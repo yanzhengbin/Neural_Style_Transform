@@ -21,7 +21,7 @@ Neural_Style_Transfrom
 其中：
 * 闫政斌同学(主要负责神经网络的构建和调参过程。)
     * github: [https://github.com/yanzhengbin](https://github.com/yanzhengbin)
-    * 邮箱:[837534638@qq.com](837534638@qq.com)
+    * 邮箱:[912510143@qq.com](912510143@qq.com)
 * 高燕昭同学(主要负责web端的展示。)
     * github: [https://github.com/Gaoyanzhao](https://github.com/Gaoyanzhao)
     * 邮箱:[837534638@qq.com](837534638@qq.com)
