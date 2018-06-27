@@ -2,7 +2,9 @@ Neural_Style_Transfrom
 ======================
 
 [Github](https://github.com/yanzhengbin/Neural_Style_Transform)
+
 [Redmine](./readmine.md)
+
 [项目的具体原理](./explain.md)
 
 
@@ -41,6 +43,7 @@ Neural_Style_Transfrom
 |  | 《cubist》 |时光塔|  《cubist》版时光塔   |
 |:---:|:-----:|:-----:|:--------:|
 | 展示  | <img src=md_images/cubist.jpg width=256 height=256>| <img src=md_images/timetower.jpg width=400 height=256>  |<img src=md_images/cubist_time.jpg width=400 height=256> |
+
 首页
 ------------------------
 <img src=md_images/home.jpg >
